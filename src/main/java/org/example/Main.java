@@ -33,7 +33,8 @@ public class Main {
                     System.out.println(calculateSum());
                     break;
                 case 5:
-                    String str = scanner.nextLine();
+                    Scanner scan = new Scanner(System.in);
+                    String str = scan.nextLine();
                     if (isPalindrome(str)) System.out.println("is palindrome\n");
                     else System.out.println("is NOT palindrome\n");
                     break;
